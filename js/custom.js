@@ -27,6 +27,7 @@ $(document).ready(function(){
                  settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
+			centerPadding: '100px',
                         infinite: true,
                         arrows:false,
                         dots:false
@@ -37,6 +38,7 @@ $(document).ready(function(){
                  settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
+			centerPadding: '50px',
                         infinite: true,
                         arrows:false,
                     }
@@ -67,7 +69,7 @@ $(document).ready(function(){
             {
                 breakpoint: 767,
                  settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                         infinite: true,
                         arrows:false,
@@ -77,7 +79,7 @@ $(document).ready(function(){
             {
                 breakpoint: 480,
                  settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                         infinite: true,
                         arrows:false,
