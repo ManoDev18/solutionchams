@@ -38,7 +38,7 @@ $(document).ready(function(){
                  settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
-			centerPadding: '50px',
+			centerPadding: '0px',
                         infinite: true,
                         arrows:false,
                     }
