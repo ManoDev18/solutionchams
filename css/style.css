@@ -910,3 +910,443 @@ h1,h2,h3,h4,h5,h6{
 .services_sec:nth-child(3) .services_title button:after{
     background-image: url(../images/home/service_arrow1.png);
 }
+/***************** Responsive *****************/
+@media only screen and (max-width:1300px){
+   .container{
+        max-width: unset;
+        padding: 0 15px;
+   }
+}
+@media only screen and (max-width:1200px){
+    .banner_content h1{
+        font-size: 55px;
+        line-height: 70px;
+        margin-top: 10px;
+    }
+    .banner_img img{
+        width: 450px;
+        height: 400px;
+    }
+    .services_img img{
+        height: 130px;
+        width: 185px;
+    }
+    .service_box{
+        height: 250px;
+        padding: 30px;
+    }
+    .lets_make_sec:after{
+        right: 35px;
+        width: 30%;
+        height: 375px;
+    }
+    .lets_make_sec{
+        padding: 0px 50px 0px 50px;
+    }
+    .set{
+        padding: 30px 50px 30px 50px;
+    }
+    .contact_whole_section{
+        padding: 50px 20px 70px 70px;
+    }
+    .contact_whole_section:after{
+        height: 80%;
+    }
+    .footer_menu{
+        width: 60%;
+    }
+    .footer_menu ul li{
+        padding: 10px 12px;
+    }
+    .footer_logo{
+        width: 20%;
+    }
+    .footer_medium_left{
+        width: 45%;
+    }
+    .footer_medium_right{
+        width: 55%;
+    }
+    .form-control{
+        width: 200px;
+        height: 55px;
+        padding: 20px 30px 20px 30px;
+    }
+    .footer_medium_right button{
+        padding: 20px 30px 20px 30px;
+        width: 210px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width:992px){
+    .banner_content h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner_img img{
+        width: 350px;
+        height: 300px;
+    }
+    .banner_content p{
+        font-size: 18px;
+        line-height: 25px;
+        margin: 10px 0;
+    }
+    .banner_content button{
+        padding: 10px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .blk_title p{
+        margin-left: 1em;
+        max-width: 100%;
+    }
+    .services_sec{
+        padding: 10px;
+    }
+    .service_box{
+        height: 200px;
+        padding: 25px;
+    }
+    .services_heading p{
+        font-size: 25px;
+        line-height: 30px;
+        border-radius: 5px;
+        height: 30px;
+        width: 200px;
+        padding: 0px 5px 0px 5px;
+    }
+    .services_heading span{
+        font-size: 25px;
+        line-height: 30px;
+        border-radius: 5px;
+        height: 30px;
+        width: 185px;
+        padding: 0px 5px 0px 5px;
+    }
+    .services_img img{
+        height: 75px;
+        width: 100px;
+    }
+    .services_title button{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .lets_make_sec{
+        padding: 0px 40px 0px 40px;
+    }
+    .lets_make_left h3{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .lets_make_left p{
+        font-size: 18px;
+        line-height: 25px;
+        margin: 10px 0;
+    }
+    .lets_make_sec:after{
+        right: 0;
+        margin-right: 3em;
+    }
+    .blk_title h2{
+        display: block;
+        padding: 0 5px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .casestudies_part p{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .casestudies_part{
+        padding: 0 30px;
+    }
+    .casestudies_section{
+        padding: 1em 0;
+        margin: 2em 0;
+    }
+    .casestudies_part a{
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .set{
+        padding: 20px 30px 20px 30px;
+    }
+    .set a strong{
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .team_box{
+        padding: 10px;
+    }
+    .team_part{
+        padding: 6px;
+    }
+    .team_top{
+        gap: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .team_name strong{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .team_name span{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .team_top span img {
+        height: 60px;
+        width: 60px;
+    }
+    .team_box p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .team_top a{
+        width: 30px;
+       height: 30px;
+       font-size: 16px;
+       line-height: 28px;
+    }
+    .blk_button{
+        padding: 10px 40px 10px 40px;
+    }
+    .testimonials_section{
+        border-radius: 30px;
+        padding: 1em 0 1em;
+        margin: 1em 0;
+    }
+    .form-group button{
+        width: 385px;
+        height: 60px;
+        line-height: 22px;
+    }
+    .contact-form{
+        padding: 15px 22px 15px 25px;
+        width: 385px;
+        height: 45px;
+    }
+    .textarea{
+        height: 140px;
+    }
+    .contact_whole_section{
+        padding: 20px 10px 40px 40px;
+        margin: 1em 0;
+    }
+    .footer_logo h2{
+        left: 36px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .footer_logo_img img {
+        width: 30px;
+        height: 30px;
+    }
+    .footer_section{
+        padding: 55px 15px 50px 20px;
+    }
+    .footer_menu ul li{
+        padding: 7px;
+    }
+    .social_links ul li{
+        padding: 5px 12px;
+    }
+    .social_links ul li:after{
+        width: 35px;
+        height: 35px;
+        top: 0;
+        left: 0;
+    }
+    .footer_menu ul li a{
+        font-size: 17px;
+    }
+    .footer_medium_right button{
+        padding: 10px 15px 10px 15px;
+        width: 180px;
+        height: 50px;
+    }
+    .footer_medium_left{
+        width: 40%;
+    }
+    .footer_medium_right{
+        width: 60%;
+    }
+    .form-control{
+        height: 50px;
+        width: 180px;
+    }
+}
+@media only screen and (max-width:767px){
+    .banner_content {
+        width: 100%;
+    }
+    .banner_img {
+        width: 100%;
+        float: left;
+    }
+    .banner_content h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .services_sec{
+        width: 100%;
+    }
+    .lets_make_sec:after{
+        content: unset;
+    }
+    .services_img img{
+        height: 130px;
+        width: 185px;
+    }
+    .service_box{
+        height: 250px;
+    }
+    .lets_make_left{
+        width: 100%;
+    }
+    .lets_make_sec{
+        height: 280px;
+    }
+    .lets_make_sec{
+        padding: 0px 30px 0px 30px;
+    }
+    .casestudies_part:last-child{
+        border-bottom: unset;
+    }
+    .casestudies_part{
+        padding: 10px 30px;
+        width: 100%;
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .blk_title h2{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .set {
+        padding: 15px 20px 15px 20px;
+        position: relative;
+    }
+    .set a{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .set a strong{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .set a span:after{
+       content: unset;
+    }
+    .team_part{
+        width: 100%;
+    }
+    .team_box{
+        padding: 30px;
+    }
+    .team_top span img{
+        height: unset;
+        width: unset;
+    }
+    .team_top{
+        gap: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .contact_whole_section:after{
+        content: unset;
+    }
+    .footer_logo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .footer_menu{
+        width: 100%;
+    }
+    .footer_menu ul li{
+        display: block;
+        padding: 8px;
+    }
+    .footer_menu ul li a{
+        text-decoration: unset;
+    }
+    .social_links{
+        width: 100%;
+        float: left;
+        margin-top: 1em;
+    }
+    .footer_medium_left{
+        width: 100%;
+    }
+    .footer_medium_right{
+        width: 100%;
+        padding: 20px 0;
+        height: unset;
+    }
+    .blk_title p{
+        margin-left: 0;
+    }
+    .blk_title{
+        align-items: start;
+        flex-direction: column;
+    }
+    .set a span{
+        margin-top: 0;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #191A23;
+        border-radius: 40px;
+        line-height: 40px;
+        float: unset;
+    }
+    .testimonials_part {
+        padding: 8px;
+    }
+    .testimonials_content{
+        padding: 15px;
+    }
+    .testimonials_name {
+        padding: 20px 10px;
+    }
+    .footer_section{
+        text-align: center;
+        padding: 50px 15px 45px 20px;
+    }
+    .footer_logo h2{
+        font-size: 20px;
+        line-height: 25px;
+        position: unset;
+        margin: 0;
+    }
+    .social_links ul li{
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 35px;
+        line-height: 40px;
+        margin: 0 5px;
+    }
+    .social_links ul li:after{
+        content: unset;
+    }
+    .footer_medium_section{
+        padding: 2em 0 2em;
+    }
+    .contact-form{
+        width: 350px;
+    }
+    .textarea{
+        height: 140px;
+    }
+}
