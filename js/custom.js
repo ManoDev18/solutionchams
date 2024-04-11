@@ -27,7 +27,7 @@ $(document).ready(function(){
                  settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
-			centerPadding: '100px',
+			centerPadding: '0px',
                         infinite: true,
                         arrows:false,
                         dots:false
